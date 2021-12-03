@@ -23,7 +23,8 @@
         "tsx": "never"
       }
    ],
-   "arrow-body-style": "off"
+   "arrow-body-style": "off",
+   "array-callback-return": "off"
   },
   "parserOptions": {
     "ecmaFeatures": {

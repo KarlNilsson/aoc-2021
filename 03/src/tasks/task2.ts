@@ -10,7 +10,6 @@ const separateFromBits = (list: Array<string>, index: number) => {
     } else if (dataPoint.charAt(index) === '0') {
       unsetList.push(dataPoint);
     }
-    return null;
   });
 
   return { setList, unsetList };

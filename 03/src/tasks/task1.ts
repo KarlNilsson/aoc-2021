@@ -16,9 +16,7 @@ const Task = async () => {
       } else if (binary.charAt(idx) === '0') {
         gammaArray[idx] -= 1;
       }
-      return null;
     });
-    return null;
   });
 
   const gammaBinary = gammaArray.map((gamma) => (gamma > 0 ? 1 : 0));
