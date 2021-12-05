@@ -4,6 +4,7 @@
   "license": "MIT",
   "main": "dist/app.js",
   "scripts": {
+    "build": "tsc",
     "start": "tsc && node dist/app.js"
   },
   "devDependencies": {
